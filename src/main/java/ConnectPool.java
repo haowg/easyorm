@@ -1,6 +1,22 @@
-/**
- * Created by root on 16-6-5.
- */
+import java.util.Dictionary;
+import main.java.Mysql;
+
 public class ConnectPool {
-    public ConnectPool(String)
+    Dictionary<String, Mysql> mpool, spool;
+    public ConnectPool(Dictionary<String, String> dbconf){
+
+    }
+    public Dictionary<Mysql, String> getServer{
+        // todo
+        return null;
+    }
+
+    public void disconnectAll(){
+        for(i : mpool){
+            mpool[i].close();
+        }
+        for(i : spool){
+            spool[i].close();
+        }
+    }
 }
