@@ -4,3 +4,4 @@ easyorm by java
 - connect pool
 - mysql
 - query
+- stackless support
