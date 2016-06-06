@@ -22,4 +22,7 @@ public class Mysql {
         this.conn = null;
         this.stat = null;
     }
+    private void Close(String dba){
+        // todo
+    }
 }
